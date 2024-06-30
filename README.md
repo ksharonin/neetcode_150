@@ -7,12 +7,14 @@ Greetings stranger! Just practicing during my seasonal job
 ### Python
 
 Arrays and Hashing
-- defaultDict (prevent
-- frozenSet
+- `defaultDict` (prevent key errs; e.g. via defaultdict(int) --> it will auto generate a val of 0 if the key misses)
+- `frozenSet`: immutable set, hash safe for dict keys
+- Apply key on `sort()`: by using the `key=` parameter you can specify a function/callable to be called on each list element *prior* to making comparisons
+	- e.g. `sorted_items = sorted(counter.items(), key=lambda item: item[1], reverse=True)`
 
 ### C++
 
 Arrays and Hashing
 - Can directly index into vectors using chars (translated into ASCII e.g. count [c-'a'] where c ranges from 'a' to 'z'
-- unordered_map<...> vs map<...> 
+- `unordered_map<...>` vs `map<...>` 
 
