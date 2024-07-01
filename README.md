@@ -19,4 +19,6 @@ Arrays and Hashing
 Arrays and Hashing
 - Can directly index into vectors using chars (translated into ASCII e.g. count [c-'a'] where c ranges from 'a' to 'z'
 - `unordered_map<...>` vs `map<...>` 
-
+- `s.substr(pos, len)`
+- Use prefix and postfix approach for product except self method
+- Use `stoi()` for string to int conversion e.g. int len = stoi(s.substr(i, j-i)- Use `stoi()` for string to int conversion e.g. int len = stoi(s.substr(i, j-i)- Use `stoi()` for string to int conversion e.g. int len = stoi(s.substr(i, j-i)- Use `stoi()` for string to int conversion e.g. int len = stoi(s.substr(i, j-i)
