@@ -11,6 +11,8 @@ Arrays and Hashing
 - `frozenSet`: immutable set, hash safe for dict keys
 - Apply key on `sort()`: by using the `key=` parameter you can specify a function/callable to be called on each list element *prior* to making comparisons
 	- e.g. `sorted_items = sorted(counter.items(), key=lambda item: item[1], reverse=True)`
+- Provide default arguments to `.get` e.g. `count.get(n,0)`
+- join syntax: `''.join(f'..' for string in strs)`
 
 ### C++
 
