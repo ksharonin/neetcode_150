@@ -21,4 +21,6 @@ Arrays and Hashing
 - `unordered_map<...>` vs `map<...>` 
 - `s.substr(pos, len)`
 - Use prefix and postfix approach for product except self method
-- Use `stoi()` for string to int conversion e.g. int len = stoi(s.substr(i, j-i)- Use `stoi()` for string to int conversion e.g. int len = stoi(s.substr(i, j-i)- Use `stoi()` for string to int conversion e.g. int len = stoi(s.substr(i, j-i)- Use `stoi()` for string to int conversion e.g. int len = stoi(s.substr(i, j-i)
+- Use `stoi()` for string to int conversion e.g. int len = stoi(s.substr(i, j-i)
+- Use `isalnum` to check if char (returns true if its a digit)
+- `tolower()` for string lower case
