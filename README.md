@@ -22,5 +22,5 @@ Arrays and Hashing
 - `s.substr(pos, len)`
 - Use prefix and postfix approach for product except self method
 - Use `stoi()` for string to int conversion e.g. int len = stoi(s.substr(i, j-i)
-- Use `isalnum` to check if char (returns true if its a digit)
+- Use `isalnum` to check if char (returns true if its a digit OR punctuation! If we want to ignore spaces this function is necessary)
 - `tolower()` for string lower case
