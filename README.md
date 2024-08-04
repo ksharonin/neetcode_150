@@ -23,4 +23,7 @@ Arrays and Hashing
 - Use prefix and postfix approach for product except self method
 - Use `stoi()` for string to int conversion e.g. int len = stoi(s.substr(i, j-i)
 - Use `isalnum` to check if char (returns true if its a digit OR punctuation! If we want to ignore spaces this function is necessary)
-- `tolower()` for string lower case
+- `tolower()` for string lower cas
+- Use `strcmp` only for const char * comparison 
+- 'a' vs "a": 'a' refers to const char, while "a" refers to const char * which is a pointer
+- `int mid = lower + ((upper - lower) / 2);` this formula avoids overflow for midpoint calculation. upper - lower == distance, split for midpoint, then add lower to offset to proper spot.
